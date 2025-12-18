@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Top Small Menu -->
+    <header class="top-menu">
+        <nav>
+            <ul>
+                <li><a href="#">Phone: +1 (555) 123-4567</a></li>
+                <li><a href="#">Email: info@website.com</a></li>
+                <li><a href="#">Follow Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Menu -->
+    <header class="main-menu">
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Full-Page Image Slider -->
+    <section class="slider-container">
+        <div class="slider">
+            <div class="slide fade">
+                <img src="assets/Images/A1.jpg" alt="Slide 1" class="slide-image">
+                <div class="slide-content">
+                    <div class="text-box">
+                        <h2>Welcome to My Website</h2>
+                        <p>Discover Amazing Content and Services</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="assets/Images/B2.jpg" alt="Slide 2" class="slide-image">
+                <div class="slide-content">
+                    <div class="text-box">
+                        <h2>High Quality Services</h2>
+                        <p>Experience Excellence and Innovation</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="assets/Images/C3.jpg" alt="Slide 3" class="slide-image">
+                <div class="slide-content">
+                    <div class="text-box">
+                        <h2>Join Our Community</h2>
+                        <p>Connect with Thousands of Happy Users</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+
+        <!-- Dots for slide indicators -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Content Section with Three Containers -->
+    <h2 class="section-title">Our Features</h2>
+    <section class="features-section">
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="assets/Images/A1.jpg" alt="Feature One">
+                </div>
+                <div class="card-content">
+                    <h3>Feature One</h3>
+                    <p>Discover exceptional quality and innovative solutions tailored to meet your needs. Our expert team is dedicated to delivering outstanding results that exceed expectations.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="assets/Images/B2.jpg" alt="Feature Two">
+                </div>
+                <div class="card-content">
+                    <h3>Feature Two</h3>
+                    <p>Experience seamless integration and cutting-edge technology. We provide comprehensive support and services designed to enhance your productivity and success.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="assets/Images/C3.jpg" alt="Feature Three">
+                </div>
+                <div class="card-content">
+                    <h3>Feature Three</h3>
+                    <p>Transform your vision into reality with our professional expertise. Join thousands of satisfied clients who trust us for reliable, high-quality solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section with Three Containers - Duplicate -->
+    <h2 class="section-title">Our Features</h2>
+    <section class="features-section">
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="assets/Images/A1.jpg" alt="Feature One">
+                </div>
+                <div class="card-content">
+                    <h3>Feature One</h3>
+                    <p>Discover exceptional quality and innovative solutions tailored to meet your needs. Our expert team is dedicated to delivering outstanding results that exceed expectations.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="assets/Images/B2.jpg" alt="Feature Two">
+                </div>
+                <div class="card-content">
+                    <h3>Feature Two</h3>
+                    <p>Experience seamless integration and cutting-edge technology. We provide comprehensive support and services designed to enhance your productivity and success.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="assets/Images/C3.jpg" alt="Feature Three">
+                </div>
+                <div class="card-content">
+                    <h3>Feature Three</h3>
+                    <p>Transform your vision into reality with our professional expertise. Join thousands of satisfied clients who trust us for reliable, high-quality solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
